@@ -1,0 +1,13 @@
+12/04/2019 17.25.37 ffmpeg version N-90893-gcae6f806a6 Copyright (c) 2000-2018 the FFmpeg developers
+12/04/2019 17.25.37   built with gcc 7.3.0 (GCC)
+12/04/2019 17.25.37   configuration: --enable-gpl --enable-version3 --enable-sdl2 --enable-bzlib --enable-fontconfig --enable-gnutls --enable-iconv --enable-libass --enable-libbluray --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libopus --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libtheora --enable-libtwolame --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libzimg --enable-lzma --enable-zlib --enable-gmp --enable-libvidstab --enable-libvorbis --enable-libvo-amrwbenc --enable-libmysofa --enable-libspeex --enable-libxvid --enable-libaom --enable-libmfx --enable-amf --enable-ffnvcodec --enable-cuvid --enable-d3d11va --enable-nvenc --enable-nvdec --enable-dxva2 --enable-avisynth
+12/04/2019 17.25.37   libavutil      56. 17.100 / 56. 17.100
+12/04/2019 17.25.37   libavcodec     58. 19.100 / 58. 19.100
+12/04/2019 17.25.37   libavformat    58. 13.100 / 58. 13.100
+12/04/2019 17.25.37   libavdevice    58.  4.100 / 58.  4.100
+12/04/2019 17.25.37   libavfilter     7. 21.100 /  7. 21.100
+12/04/2019 17.25.37   libswscale      5.  2.100 /  5.  2.100
+12/04/2019 17.25.37   libswresample   3.  2.100 /  3.  2.100
+12/04/2019 17.25.37   libpostproc    55.  2.100 / 55.  2.100
+12/04/2019 17.25.37 [mov,mp4,m4a,3gp,3g2,mj2 @ 000002640df5a5c0] moov atom not found
+12/04/2019 17.25.37 output.mp4: Invalid data found when processing input
