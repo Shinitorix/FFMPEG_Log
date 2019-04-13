@@ -1,0 +1,327 @@
+
+12/04/2019 17.23.33 ffmpeg version N-90893-gcae6f806a6 Copyright (c) 2000-2018 the FFmpeg developers
+12/04/2019 17.23.33   built with gcc 7.3.0 (GCC)
+12/04/2019 17.23.33   configuration: --enable-gpl --enable-version3 --enable-sdl2 --enable-bzlib --enable-fontconfig --enable-gnutls --enable-iconv --enable-libass --enable-libbluray --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libopus --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libtheora --enable-libtwolame --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libzimg --enable-lzma --enable-zlib --enable-gmp --enable-libvidstab --enable-libvorbis --enable-libvo-amrwbenc --enable-libmysofa --enable-libspeex --enable-libxvid --enable-libaom --enable-libmfx --enable-amf --enable-ffnvcodec --enable-cuvid --enable-d3d11va --enable-nvenc --enable-nvdec --enable-dxva2 --enable-avisynth
+12/04/2019 17.23.33   libavutil      56. 17.100 / 56. 17.100
+12/04/2019 17.23.33   libavcodec     58. 19.100 / 58. 19.100
+12/04/2019 17.23.33   libavformat    58. 13.100 / 58. 13.100
+12/04/2019 17.23.33   libavdevice    58.  4.100 / 58.  4.100
+12/04/2019 17.23.33   libavfilter     7. 21.100 /  7. 21.100
+12/04/2019 17.23.33   libswscale      5.  2.100 /  5.  2.100
+12/04/2019 17.23.33   libswresample   3.  2.100 /  3.  2.100
+12/04/2019 17.23.33   libpostproc    55.  2.100 / 55.  2.100
+12/04/2019 17.23.33 Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'input.mp4':
+12/04/2019 17.23.33   Metadata:
+12/04/2019 17.23.33     major_brand     : isom
+12/04/2019 17.23.33     minor_version   : 512
+12/04/2019 17.23.33     compatible_brands: isomiso2avc1mp41
+12/04/2019 17.23.33     encoder         : Lavf58.13.100
+12/04/2019 17.23.33   Duration: 00:02:15.15, start: 0.000000, bitrate: 4377 kb/s
+12/04/2019 17.23.33     Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p, 1024x576, 4275 kb/s, 25 fps, 25 tbr, 12800 tbn, 50 tbc (default)
+12/04/2019 17.23.33     Metadata:
+12/04/2019 17.23.33       handler_name    : VideoHandler
+12/04/2019 17.23.33     Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 96 kb/s (default)
+12/04/2019 17.23.33     Metadata:
+12/04/2019 17.23.33       handler_name    : SoundHandler
+12/04/2019 17.23.33 Input #1, image2, from '01.jpg':
+12/04/2019 17.23.33   Duration: 00:00:00.04, start: 0.000000, bitrate: 49266 kb/s
+12/04/2019 17.23.33     Stream #1:0: Video: mjpeg, yuvj420p(pc, bt470bg/unknown/unknown), 854x1280 [SAR 72:72 DAR 427:640], 25 tbr, 25 tbn, 25 tbc
+12/04/2019 17.23.33 Input #2, image2, from '02.jpg':
+12/04/2019 17.23.33   Duration: 00:00:00.04, start: 0.000000, bitrate: 492639 kb/s
+12/04/2019 17.23.33     Stream #2:0: Video: mjpeg, yuvj422p(pc, bt470bg/unknown/unknown), 3872x2592, 25 tbr, 25 tbn, 25 tbc
+12/04/2019 17.23.33 Input #3, image2, from '03.jpg':
+12/04/2019 17.23.33   Duration: 00:00:00.04, start: 0.000000, bitrate: 521756 kb/s
+12/04/2019 17.23.33     Stream #3:0: Video: mjpeg, yuvj422p(pc, bt470bg/unknown/unknown), 3872x2592, 25 tbr, 25 tbn, 25 tbc
+12/04/2019 17.23.33 Input #4, image2, from '04.jpg':
+12/04/2019 17.23.33   Duration: 00:00:00.04, start: 0.000000, bitrate: 411526 kb/s
+12/04/2019 17.23.33     Stream #4:0: Video: mjpeg, yuvj420p(pc, bt470bg/unknown/unknown), 2592x3872 [SAR 300:300 DAR 81:121], 25 tbr, 25 tbn, 25 tbc
+12/04/2019 17.23.33 Input #5, image2, from '05.jpg':
+12/04/2019 17.23.33   Duration: 00:00:00.04, start: 0.000000, bitrate: 395564 kb/s
+12/04/2019 17.23.33     Stream #5:0: Video: mjpeg, yuvj420p(pc, bt470bg/unknown/unknown), 3872x2592 [SAR 300:300 DAR 121:81], 25 tbr, 25 tbn, 25 tbc
+12/04/2019 17.23.33 Input #6, image2, from '06.jpg':
+12/04/2019 17.23.33   Duration: 00:00:00.04, start: 0.000000, bitrate: 508558 kb/s
+12/04/2019 17.23.33     Stream #6:0: Video: mjpeg, yuvj422p(pc, bt470bg/unknown/unknown), 3872x2592, 25 tbr, 25 tbn, 25 tbc
+12/04/2019 17.23.33 Input #7, image2, from '07.jpg':
+12/04/2019 17.23.33   Duration: 00:00:00.04, start: 0.000000, bitrate: 465771 kb/s
+12/04/2019 17.23.33     Stream #7:0: Video: mjpeg, yuvj422p(pc, bt470bg/unknown/unknown), 3872x2592, 25 tbr, 25 tbn, 25 tbc
+12/04/2019 17.23.33 Input #8, image2, from '08.jpg':
+12/04/2019 17.23.33   Duration: 00:00:00.04, start: 0.000000, bitrate: 843833 kb/s
+12/04/2019 17.23.33     Stream #8:0: Video: mjpeg, yuvj422p(pc, bt470bg/unknown/unknown), 3872x2592, 25 tbr, 25 tbn, 25 tbc
+12/04/2019 17.23.33 Input #9, image2, from '09.jpg':
+12/04/2019 17.23.33   Duration: 00:00:00.04, start: 0.000000, bitrate: 493619 kb/s
+12/04/2019 17.23.33     Stream #9:0: Video: mjpeg, yuvj420p(pc, bt470bg/unknown/unknown), 3268x2311 [SAR 300:300 DAR 3268:2311], 25 tbr, 25 tbn, 25 tbc
+12/04/2019 17.23.33 Input #10, image2, from '10.jpg':
+12/04/2019 17.23.33   Duration: 00:00:00.04, start: 0.000000, bitrate: 492926 kb/s
+12/04/2019 17.23.33     Stream #10:0: Video: mjpeg, yuvj422p(pc, bt470bg/unknown/unknown), 3872x2592, 25 tbr, 25 tbn, 25 tbc
+12/04/2019 17.23.33 Stream mapping:
+12/04/2019 17.23.33   Stream #0:0 (h264) -> overlay:main
+12/04/2019 17.23.33   Stream #1:0 (mjpeg) -> format
+12/04/2019 17.23.33   Stream #2:0 (mjpeg) -> format
+12/04/2019 17.23.33   Stream #3:0 (mjpeg) -> format
+12/04/2019 17.23.33   Stream #4:0 (mjpeg) -> format
+12/04/2019 17.23.33   Stream #5:0 (mjpeg) -> format
+12/04/2019 17.23.33   Stream #6:0 (mjpeg) -> format
+12/04/2019 17.23.33   Stream #7:0 (mjpeg) -> format
+12/04/2019 17.23.33   Stream #8:0 (mjpeg) -> format
+12/04/2019 17.23.33   Stream #9:0 (mjpeg) -> format
+12/04/2019 17.23.33   Stream #10:0 (mjpeg) -> format
+12/04/2019 17.23.33   overlay -> Stream #0:0 (libx264)
+12/04/2019 17.23.33   Stream #0:1 -> #0:1 (copy)
+12/04/2019 17.23.33 Press [q] to stop, [?] for help
+12/04/2019 17.23.33 frame=    0 fps=0.0 q=0.0 size=       0kB time=-577014:32:22.77 bitrate=  -0.0kbits/s speed=N/A    
+12/04/2019 17.23.33 [swscaler @ 0000024069fdf040] deprecated pixel format used, make sure you did set range correctly
+12/04/2019 17.23.33 [swscaler @ 000002406a073c40] deprecated pixel format used, make sure you did set range correctly
+12/04/2019 17.23.33 [swscaler @ 000002406a1e9e00] deprecated pixel format used, make sure you did set range correctly
+12/04/2019 17.23.33 [swscaler @ 000002406a368640] deprecated pixel format used, make sure you did set range correctly
+12/04/2019 17.23.33 [swscaler @ 000002406a481e80] deprecated pixel format used, make sure you did set range correctly
+12/04/2019 17.23.33 [swscaler @ 000002406a60a6c0] deprecated pixel format used, make sure you did set range correctly
+12/04/2019 17.23.33 [swscaler @ 000002406a7790c0] deprecated pixel format used, make sure you did set range correctly
+12/04/2019 17.23.33 [swscaler @ 000002406a8f04c0] deprecated pixel format used, make sure you did set range correctly
+12/04/2019 17.23.33 [swscaler @ 000002406aa83940] deprecated pixel format used, make sure you did set range correctly
+12/04/2019 17.23.33 [swscaler @ 000002406abd5880] deprecated pixel format used, make sure you did set range correctly
+12/04/2019 17.23.33 [swscaler @ 000002406aecb200] Warning: data is not aligned! This can lead to a speed loss
+12/04/2019 17.23.36 [libx264 @ 000002405d2fef00] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+12/04/2019 17.23.36 [libx264 @ 000002405d2fef00] profile High, level 3.1
+12/04/2019 17.23.36 [libx264 @ 000002405d2fef00] 264 - core 155 r2901 7d0ff22 - H.264/MPEG-4 AVC codec - Copyleft 2003-2018 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=6 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=25 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=18.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+12/04/2019 17.23.36 Output #0, mp4, to 'output.mp4':
+12/04/2019 17.23.36   Metadata:
+12/04/2019 17.23.36     major_brand     : isom
+12/04/2019 17.23.36     minor_version   : 512
+12/04/2019 17.23.36     compatible_brands: isomiso2avc1mp41
+12/04/2019 17.23.36     encoder         : Lavf58.13.100
+12/04/2019 17.23.36     Stream #0:0: Video: h264 (libx264) (avc1 / 0x31637661), yuv420p, 1024x576, q=-1--1, 25 fps, 12800 tbn, 25 tbc (default)
+12/04/2019 17.23.36     Metadata:
+12/04/2019 17.23.36       encoder         : Lavc58.19.100 libx264
+12/04/2019 17.23.36     Side data:
+12/04/2019 17.23.36       cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: -1
+12/04/2019 17.23.36     Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 96 kb/s (default)
+12/04/2019 17.23.36     Metadata:
+12/04/2019 17.23.36       handler_name    : SoundHandler
+12/04/2019 17.23.36 frame=    1 fps=0.4 q=0.0 size=       0kB time=00:00:00.17 bitrate=   2.2kbits/s speed=0.0625x    
+12/04/2019 17.23.36 frame=  185 fps= 56 q=23.0 size=       0kB time=00:00:07.53 bitrate=   0.1kbits/s speed= 2.3x    
+12/04/2019 17.23.37 frame=  390 fps=103 q=23.0 size=       0kB time=00:00:15.72 bitrate=   0.0kbits/s speed=4.15x    
+12/04/2019 17.23.37 frame=  509 fps=118 q=23.0 size=     256kB time=00:00:20.46 bitrate= 102.5kbits/s speed=4.75x    
+12/04/2019 17.23.38 frame=  526 fps=109 q=23.0 size=     256kB time=00:00:21.18 bitrate=  99.0kbits/s speed=4.39x    
+12/04/2019 17.23.38 frame=  544 fps=102 q=23.0 size=     256kB time=00:00:21.91 bitrate=  95.7kbits/s speed= 4.1x    
+12/04/2019 17.23.39 frame=  563 fps= 96 q=23.0 size=     256kB time=00:00:22.67 bitrate=  92.5kbits/s speed=3.87x    
+12/04/2019 17.23.39 frame=  583 fps= 92 q=23.0 size=     256kB time=00:00:23.46 bitrate=  89.4kbits/s speed=3.68x    
+12/04/2019 17.23.40 frame=  603 fps= 87 q=23.0 size=     256kB time=00:00:24.27 bitrate=  86.4kbits/s speed=3.52x    
+12/04/2019 17.23.40 frame=  624 fps= 84 q=23.0 size=     256kB time=00:00:25.11 bitrate=  83.5kbits/s speed=3.39x    
+12/04/2019 17.23.41 frame=  645 fps= 81 q=23.0 size=     256kB time=00:00:25.94 bitrate=  80.9kbits/s speed=3.27x    
+12/04/2019 17.23.41 frame=  667 fps= 79 q=23.0 size=     512kB time=00:00:26.83 bitrate= 156.3kbits/s speed=3.18x    
+12/04/2019 17.23.42 frame=  688 fps= 77 q=23.0 size=     768kB time=00:00:27.67 bitrate= 227.4kbits/s speed=3.09x    
+12/04/2019 17.23.42 frame=  711 fps= 75 q=23.0 size=    1280kB time=00:00:28.58 bitrate= 366.8kbits/s speed=3.01x    
+12/04/2019 17.23.43 frame=  734 fps= 73 q=23.0 size=    1792kB time=00:00:29.50 bitrate= 497.5kbits/s speed=2.95x    
+12/04/2019 17.23.43 frame=  752 fps= 71 q=23.0 size=    2048kB time=00:00:30.23 bitrate= 555.0kbits/s speed=2.87x    
+12/04/2019 17.23.44 frame=  758 fps= 69 q=23.0 size=    2304kB time=00:00:30.46 bitrate= 619.5kbits/s speed=2.76x    
+12/04/2019 17.23.44 frame=  765 fps= 66 q=23.0 size=    2560kB time=00:00:30.74 bitrate= 682.2kbits/s speed=2.64x    
+12/04/2019 17.23.45 frame=  773 fps= 63 q=23.0 size=    2816kB time=00:00:31.02 bitrate= 743.7kbits/s speed=2.55x    
+12/04/2019 17.23.46 frame=  781 fps= 61 q=23.0 size=    2816kB time=00:00:31.34 bitrate= 736.1kbits/s speed=2.46x    
+12/04/2019 17.23.46 frame=  789 fps= 60 q=23.0 size=    3072kB time=00:00:31.66 bitrate= 794.9kbits/s speed=2.39x    
+12/04/2019 17.23.47 frame=  797 fps= 58 q=23.0 size=    3328kB time=00:00:31.98 bitrate= 852.5kbits/s speed=2.33x    
+12/04/2019 17.23.47 frame=  805 fps= 56 q=23.0 size=    3840kB time=00:00:32.34 bitrate= 972.6kbits/s speed=2.26x    
+12/04/2019 17.23.48 frame=  814 fps= 55 q=23.0 size=    4096kB time=00:00:32.70 bitrate=1026.0kbits/s speed= 2.2x    
+12/04/2019 17.23.48 frame=  823 fps= 53 q=23.0 size=    4352kB time=00:00:33.06 bitrate=1078.1kbits/s speed=2.15x    
+12/04/2019 17.23.49 frame=  832 fps= 52 q=23.0 size=    4608kB time=00:00:33.43 bitrate=1129.2kbits/s speed= 2.1x    
+12/04/2019 17.23.49 frame=  841 fps= 51 q=23.0 size=    4864kB time=00:00:33.79 bitrate=1179.1kbits/s speed=2.05x    
+12/04/2019 17.23.50 frame=  850 fps= 50 q=23.0 size=    5120kB time=00:00:34.15 bitrate=1228.0kbits/s speed=2.01x    
+12/04/2019 17.23.50 frame=  859 fps= 49 q=23.0 size=    5376kB time=00:00:34.51 bitrate=1275.8kbits/s speed=1.97x    
+12/04/2019 17.23.51 frame=  869 fps= 48 q=23.0 size=    5632kB time=00:00:34.86 bitrate=1323.5kbits/s speed=1.93x    
+12/04/2019 17.23.51 frame=  878 fps= 47 q=23.0 size=    5632kB time=00:00:35.26 bitrate=1308.3kbits/s speed= 1.9x    
+12/04/2019 17.23.52 frame=  888 fps= 46 q=23.0 size=    5888kB time=00:00:35.67 bitrate=1352.2kbits/s speed=1.87x    
+12/04/2019 17.23.52 frame=  898 fps= 46 q=23.0 size=    6144kB time=00:00:36.07 bitrate=1395.1kbits/s speed=1.84x    
+12/04/2019 17.23.53 frame=  909 fps= 45 q=23.0 size=    6400kB time=00:00:36.46 bitrate=1438.0kbits/s speed=1.81x    
+12/04/2019 17.23.53 frame=  918 fps= 44 q=23.0 size=    6656kB time=00:00:36.86 bitrate=1479.0kbits/s speed=1.78x    
+12/04/2019 17.23.54 frame=  928 fps= 44 q=23.0 size=    6912kB time=00:00:37.27 bitrate=1519.2kbits/s speed=1.76x    
+12/04/2019 17.23.55 frame=  938 fps= 43 q=23.0 size=    7424kB time=00:00:37.67 bitrate=1614.2kbits/s speed=1.73x    
+12/04/2019 17.23.55 frame=  949 fps= 43 q=23.0 size=    7680kB time=00:00:38.10 bitrate=1651.2kbits/s speed=1.71x    
+12/04/2019 17.23.56 frame=  960 fps= 42 q=23.0 size=    7936kB time=00:00:38.55 bitrate=1686.4kbits/s speed=1.69x    
+12/04/2019 17.23.56 frame=  971 fps= 42 q=23.0 size=    8192kB time=00:00:38.99 bitrate=1720.8kbits/s speed=1.67x    
+12/04/2019 17.23.57 frame=  982 fps= 41 q=23.0 size=    8448kB time=00:00:39.42 bitrate=1755.3kbits/s speed=1.65x    
+12/04/2019 17.23.57 frame=  993 fps= 41 q=23.0 size=    8704kB time=00:00:39.87 bitrate=1788.2kbits/s speed=1.63x    
+12/04/2019 17.23.58 frame= 1005 fps= 40 q=23.0 size=    9216kB time=00:00:40.30 bitrate=1873.4kbits/s speed=1.62x    
+12/04/2019 17.23.58 frame= 1015 fps= 40 q=23.0 size=    9472kB time=00:00:40.74 bitrate=1904.2kbits/s speed= 1.6x    
+12/04/2019 17.23.59 frame= 1029 fps= 40 q=23.0 size=    9984kB time=00:00:41.30 bitrate=1980.2kbits/s speed=1.59x    
+12/04/2019 17.23.59 frame= 1037 fps= 39 q=23.0 size=   10240kB time=00:00:41.62 bitrate=2015.4kbits/s speed=1.57x    
+12/04/2019 17.24.00 frame= 1045 fps= 39 q=23.0 size=   10240kB time=00:00:41.94 bitrate=2000.0kbits/s speed=1.55x    
+12/04/2019 17.24.00 frame= 1053 fps= 38 q=23.0 size=   10752kB time=00:00:42.26 bitrate=2084.1kbits/s speed=1.53x    
+12/04/2019 17.24.01 frame= 1061 fps= 38 q=23.0 size=   11008kB time=00:00:42.58 bitrate=2117.7kbits/s speed=1.51x    
+12/04/2019 17.24.01 frame= 1069 fps= 37 q=23.0 size=   11264kB time=00:00:42.90 bitrate=2150.8kbits/s speed= 1.5x    
+12/04/2019 17.24.02 frame= 1078 fps= 37 q=23.0 size=   11520kB time=00:00:43.26 bitrate=2181.2kbits/s speed=1.48x    
+12/04/2019 17.24.03 frame= 1087 fps= 37 q=23.0 size=   11776kB time=00:00:43.62 bitrate=2211.1kbits/s speed=1.47x    
+12/04/2019 17.24.03 frame= 1096 fps= 36 q=23.0 size=   12032kB time=00:00:43.99 bitrate=2240.6kbits/s speed=1.45x    
+12/04/2019 17.24.04 frame= 1105 fps= 36 q=23.0 size=   12288kB time=00:00:44.35 bitrate=2269.6kbits/s speed=1.44x    
+12/04/2019 17.24.04 frame= 1114 fps= 36 q=23.0 size=   12544kB time=00:00:44.71 bitrate=2298.0kbits/s speed=1.43x    
+12/04/2019 17.24.05 frame= 1123 fps= 35 q=23.0 size=   12800kB time=00:00:45.07 bitrate=2326.1kbits/s speed=1.41x    
+12/04/2019 17.24.05 frame= 1133 fps= 35 q=23.0 size=   13056kB time=00:00:45.42 bitrate=2354.8kbits/s speed= 1.4x    
+12/04/2019 17.24.06 frame= 1141 fps= 35 q=23.0 size=   13312kB time=00:00:45.78 bitrate=2381.9kbits/s speed=1.39x    
+12/04/2019 17.24.06 frame= 1151 fps= 34 q=23.0 size=   13568kB time=00:00:46.18 bitrate=2406.4kbits/s speed=1.38x    
+12/04/2019 17.24.07 frame= 1161 fps= 34 q=23.0 size=   13824kB time=00:00:46.59 bitrate=2430.5kbits/s speed=1.37x    
+12/04/2019 17.24.07 frame= 1171 fps= 34 q=23.0 size=   14080kB time=00:00:46.99 bitrate=2454.2kbits/s speed=1.36x    
+12/04/2019 17.24.08 frame= 1181 fps= 34 q=23.0 size=   14336kB time=00:00:47.38 bitrate=2478.5kbits/s speed=1.35x    
+12/04/2019 17.24.08 frame= 1191 fps= 33 q=23.0 size=   14592kB time=00:00:47.78 bitrate=2501.4kbits/s speed=1.34x    
+12/04/2019 17.24.09 frame= 1201 fps= 33 q=23.0 size=   14848kB time=00:00:48.19 bitrate=2523.9kbits/s speed=1.33x    
+12/04/2019 17.24.09 frame= 1211 fps= 33 q=23.0 size=   15104kB time=00:00:48.59 bitrate=2546.0kbits/s speed=1.33x    
+12/04/2019 17.24.10 frame= 1221 fps= 33 q=23.0 size=   15360kB time=00:00:48.98 bitrate=2568.8kbits/s speed=1.32x    
+12/04/2019 17.24.11 frame= 1232 fps= 33 q=23.0 size=   15616kB time=00:00:49.43 bitrate=2588.0kbits/s speed=1.31x    
+12/04/2019 17.24.11 frame= 1243 fps= 32 q=23.0 size=   16128kB time=00:00:49.87 bitrate=2648.8kbits/s speed= 1.3x    
+12/04/2019 17.24.12 frame= 1253 fps= 32 q=23.0 size=   16384kB time=00:00:50.26 bitrate=2670.3kbits/s speed= 1.3x    
+12/04/2019 17.24.12 frame= 1264 fps= 32 q=23.0 size=   16384kB time=00:00:50.71 bitrate=2646.7kbits/s speed=1.29x    
+12/04/2019 17.24.13 frame= 1275 fps= 32 q=23.0 size=   16640kB time=00:00:51.15 bitrate=2664.5kbits/s speed=1.29x    
+12/04/2019 17.24.13 frame= 1286 fps= 32 q=23.0 size=   16896kB time=00:00:51.58 bitrate=2683.1kbits/s speed=1.28x    
+12/04/2019 17.24.14 frame= 1302 fps= 32 q=23.0 size=   17152kB time=00:00:52.22 bitrate=2690.4kbits/s speed=1.28x    
+12/04/2019 17.24.14 frame= 1318 fps= 32 q=23.0 size=   17152kB time=00:00:52.86 bitrate=2657.8kbits/s speed=1.28x    
+12/04/2019 17.24.15 frame= 1334 fps= 32 q=23.0 size=   17408kB time=00:00:53.50 bitrate=2665.2kbits/s speed=1.28x    
+12/04/2019 17.24.15 frame= 1351 fps= 32 q=23.0 size=   17664kB time=00:00:54.18 bitrate=2670.4kbits/s speed=1.28x    
+12/04/2019 17.24.16 frame= 1369 fps= 32 q=23.0 size=   18176kB time=00:00:54.91 bitrate=2711.5kbits/s speed=1.28x    
+12/04/2019 17.24.16 frame= 1387 fps= 32 q=23.0 size=   18432kB time=00:00:55.63 bitrate=2713.8kbits/s speed=1.28x    
+12/04/2019 17.24.17 frame= 1405 fps= 32 q=23.0 size=   18688kB time=00:00:56.34 bitrate=2717.1kbits/s speed=1.28x    
+12/04/2019 17.24.17 frame= 1424 fps= 32 q=23.0 size=   19200kB time=00:00:57.11 bitrate=2754.0kbits/s speed=1.28x    
+12/04/2019 17.24.18 frame= 1445 fps= 32 q=23.0 size=   19456kB time=00:00:57.90 bitrate=2752.7kbits/s speed=1.29x    
+12/04/2019 17.24.18 frame= 1464 fps= 32 q=23.0 size=   19968kB time=00:00:58.71 bitrate=2786.1kbits/s speed=1.29x    
+12/04/2019 17.24.19 frame= 1485 fps= 32 q=23.0 size=   20224kB time=00:00:59.50 bitrate=2784.4kbits/s speed=1.29x    
+12/04/2019 17.24.19 frame= 1505 fps= 32 q=23.0 size=   20736kB time=00:01:00.35 bitrate=2814.6kbits/s speed= 1.3x    
+12/04/2019 17.24.20 frame= 1527 fps= 32 q=23.0 size=   21248kB time=00:01:01.22 bitrate=2842.9kbits/s speed= 1.3x    
+12/04/2019 17.24.20 frame= 1550 fps= 33 q=23.0 size=   21504kB time=00:01:02.14 bitrate=2834.6kbits/s speed=1.31x    
+12/04/2019 17.24.21 frame= 1575 fps= 33 q=23.0 size=   22272kB time=00:01:03.12 bitrate=2890.2kbits/s speed=1.31x    
+12/04/2019 17.24.21 frame= 1583 fps= 33 q=23.0 size=   22272kB time=00:01:03.46 bitrate=2874.7kbits/s speed= 1.3x    
+12/04/2019 17.24.22 frame= 1591 fps= 32 q=23.0 size=   22528kB time=00:01:03.78 bitrate=2893.1kbits/s speed= 1.3x    
+12/04/2019 17.24.22 frame= 1599 fps= 32 q=23.0 size=   22528kB time=00:01:04.10 bitrate=2878.7kbits/s speed=1.29x    
+12/04/2019 17.24.23 frame= 1607 fps= 32 q=23.0 size=   22784kB time=00:01:04.42 bitrate=2897.0kbits/s speed=1.28x    
+12/04/2019 17.24.24 frame= 1615 fps= 32 q=23.0 size=   22784kB time=00:01:04.74 bitrate=2882.6kbits/s speed=1.28x    
+12/04/2019 17.24.24 frame= 1623 fps= 32 q=23.0 size=   23040kB time=00:01:05.06 bitrate=2900.7kbits/s speed=1.27x    
+12/04/2019 17.24.25 frame= 1632 fps= 31 q=23.0 size=   23296kB time=00:01:05.43 bitrate=2916.7kbits/s speed=1.26x    
+12/04/2019 17.24.25 frame= 1641 fps= 31 q=23.0 size=   23296kB time=00:01:05.79 bitrate=2900.6kbits/s speed=1.26x    
+12/04/2019 17.24.26 frame= 1650 fps= 31 q=23.0 size=   23552kB time=00:01:06.15 bitrate=2916.4kbits/s speed=1.25x    
+12/04/2019 17.24.26 frame= 1659 fps= 31 q=23.0 size=   23808kB time=00:01:06.51 bitrate=2932.0kbits/s speed=1.25x    
+12/04/2019 17.24.27 frame= 1669 fps= 31 q=23.0 size=   24064kB time=00:01:06.86 bitrate=2948.4kbits/s speed=1.24x    
+12/04/2019 17.24.27 frame= 1677 fps= 31 q=23.0 size=   24064kB time=00:01:07.22 bitrate=2932.5kbits/s speed=1.23x    
+12/04/2019 17.24.28 frame= 1686 fps= 31 q=23.0 size=   24320kB time=00:01:07.58 bitrate=2947.8kbits/s speed=1.23x    
+12/04/2019 17.24.28 frame= 1696 fps= 31 q=23.0 size=   24576kB time=00:01:07.99 bitrate=2961.1kbits/s speed=1.22x    
+12/04/2019 17.24.29 frame= 1706 fps= 30 q=23.0 size=   24576kB time=00:01:08.39 bitrate=2943.5kbits/s speed=1.22x    
+12/04/2019 17.24.29 frame= 1717 fps= 30 q=23.0 size=   24832kB time=00:01:08.78 bitrate=2957.6kbits/s speed=1.21x    
+12/04/2019 17.24.30 frame= 1726 fps= 30 q=23.0 size=   25088kB time=00:01:09.18 bitrate=2970.6kbits/s speed=1.21x    
+12/04/2019 17.24.30 frame= 1736 fps= 30 q=23.0 size=   25344kB time=00:01:09.59 bitrate=2983.4kbits/s speed=1.21x    
+12/04/2019 17.24.31 frame= 1746 fps= 30 q=23.0 size=   25344kB time=00:01:09.99 bitrate=2966.1kbits/s speed= 1.2x    
+12/04/2019 17.24.32 frame= 1757 fps= 30 q=23.0 size=   25600kB time=00:01:10.38 bitrate=2979.7kbits/s speed= 1.2x    
+12/04/2019 17.24.32 frame= 1766 fps= 30 q=23.0 size=   25600kB time=00:01:10.78 bitrate=2962.7kbits/s speed=1.19x    
+12/04/2019 17.24.33 frame= 1777 fps= 30 q=23.0 size=   25856kB time=00:01:11.23 bitrate=2973.5kbits/s speed=1.19x    
+12/04/2019 17.24.33 frame= 1789 fps= 30 q=23.0 size=   26112kB time=00:01:11.66 bitrate=2985.0kbits/s speed=1.19x    
+12/04/2019 17.24.34 frame= 1799 fps= 30 q=23.0 size=   26368kB time=00:01:12.10 bitrate=2995.6kbits/s speed=1.18x    
+12/04/2019 17.24.34 frame= 1810 fps= 29 q=23.0 size=   26624kB time=00:01:12.55 bitrate=3006.0kbits/s speed=1.18x    
+12/04/2019 17.24.35 frame= 1821 fps= 29 q=23.0 size=   26880kB time=00:01:12.98 bitrate=3017.1kbits/s speed=1.18x    
+12/04/2019 17.24.35 frame= 1833 fps= 29 q=23.0 size=   26880kB time=00:01:13.45 bitrate=2997.9kbits/s speed=1.18x    
+12/04/2019 17.24.36 frame= 1845 fps= 29 q=23.0 size=   27136kB time=00:01:13.90 bitrate=3008.1kbits/s speed=1.17x    
+12/04/2019 17.24.36 frame= 1856 fps= 29 q=23.0 size=   27648kB time=00:01:14.39 bitrate=3044.6kbits/s speed=1.17x    
+12/04/2019 17.24.37 frame= 1864 fps= 29 q=23.0 size=   27904kB time=00:01:14.71 bitrate=3059.6kbits/s speed=1.17x    
+12/04/2019 17.24.37 frame= 1872 fps= 29 q=23.0 size=   28160kB time=00:01:15.03 bitrate=3074.5kbits/s speed=1.16x    
+12/04/2019 17.24.38 frame= 1880 fps= 29 q=23.0 size=   28416kB time=00:01:15.35 bitrate=3089.3kbits/s speed=1.16x    
+12/04/2019 17.24.38 frame= 1888 fps= 29 q=23.0 size=   28416kB time=00:01:15.67 bitrate=3076.3kbits/s speed=1.15x    
+12/04/2019 17.24.39 frame= 1896 fps= 29 q=23.0 size=   28672kB time=00:01:15.99 bitrate=3090.9kbits/s speed=1.15x    
+12/04/2019 17.24.39 frame= 1905 fps= 29 q=23.0 size=   28928kB time=00:01:16.35 bitrate=3103.7kbits/s speed=1.15x    
+12/04/2019 17.24.40 frame= 1914 fps= 28 q=23.0 size=   29184kB time=00:01:16.71 bitrate=3116.3kbits/s speed=1.14x    
+12/04/2019 17.24.41 frame= 1923 fps= 28 q=23.0 size=   29440kB time=00:01:17.07 bitrate=3128.9kbits/s speed=1.14x    
+12/04/2019 17.24.41 frame= 1933 fps= 28 q=23.0 size=   29696kB time=00:01:17.42 bitrate=3142.2kbits/s speed=1.13x    
+12/04/2019 17.24.42 frame= 1941 fps= 28 q=23.0 size=   30208kB time=00:01:17.78 bitrate=3181.5kbits/s speed=1.13x    
+12/04/2019 17.24.42 frame= 1950 fps= 28 q=23.0 size=   30464kB time=00:01:18.14 bitrate=3193.5kbits/s speed=1.13x    
+12/04/2019 17.24.43 frame= 1959 fps= 28 q=23.0 size=   30464kB time=00:01:18.50 bitrate=3178.8kbits/s speed=1.12x    
+12/04/2019 17.24.43 frame= 1969 fps= 28 q=23.0 size=   30720kB time=00:01:18.91 bitrate=3189.0kbits/s speed=1.12x    
+12/04/2019 17.24.44 frame= 1979 fps= 28 q=23.0 size=   30976kB time=00:01:19.31 bitrate=3199.2kbits/s speed=1.12x    
+12/04/2019 17.24.44 frame= 1989 fps= 28 q=23.0 size=   31232kB time=00:01:19.70 bitrate=3210.1kbits/s speed=1.11x    
+12/04/2019 17.24.45 frame= 1999 fps= 28 q=23.0 size=   31488kB time=00:01:20.10 bitrate=3220.0kbits/s speed=1.11x    
+12/04/2019 17.24.45 frame= 2009 fps= 28 q=23.0 size=   31744kB time=00:01:20.51 bitrate=3229.8kbits/s speed=1.11x    
+12/04/2019 17.24.46 frame= 2019 fps= 28 q=23.0 size=   32000kB time=00:01:20.91 bitrate=3239.6kbits/s speed=1.11x    
+12/04/2019 17.24.46 frame= 2029 fps= 28 q=23.0 size=   32256kB time=00:01:21.30 bitrate=3250.1kbits/s speed= 1.1x    
+12/04/2019 17.24.47 frame= 2039 fps= 27 q=23.0 size=   32512kB time=00:01:21.70 bitrate=3259.6kbits/s speed= 1.1x    
+12/04/2019 17.24.48 frame= 2050 fps= 27 q=23.0 size=   32512kB time=00:01:22.13 bitrate=3242.7kbits/s speed= 1.1x    
+12/04/2019 17.24.48 frame= 2061 fps= 27 q=23.0 size=   32768kB time=00:01:22.54 bitrate=3252.2kbits/s speed= 1.1x    
+12/04/2019 17.24.49 frame= 2071 fps= 27 q=23.0 size=   33024kB time=00:01:22.98 bitrate=3259.9kbits/s speed= 1.1x    
+12/04/2019 17.24.49 frame= 2082 fps= 27 q=23.0 size=   33280kB time=00:01:23.43 bitrate=3267.5kbits/s speed=1.09x    
+12/04/2019 17.24.50 frame= 2093 fps= 27 q=23.0 size=   33792kB time=00:01:23.86 bitrate=3300.9kbits/s speed=1.09x    
+12/04/2019 17.24.50 frame= 2102 fps= 27 q=23.0 size=   33792kB time=00:01:24.22 bitrate=3286.7kbits/s speed=1.09x    
+12/04/2019 17.24.51 frame= 2107 fps= 27 q=23.0 size=   34048kB time=00:01:24.43 bitrate=3303.2kbits/s speed=1.08x    
+12/04/2019 17.24.51 frame= 2112 fps= 27 q=23.0 size=   34048kB time=00:01:24.63 bitrate=3295.7kbits/s speed=1.08x    
+12/04/2019 17.24.52 frame= 2117 fps= 27 q=23.0 size=   34304kB time=00:01:24.82 bitrate=3313.0kbits/s speed=1.07x    
+12/04/2019 17.24.52 frame= 2123 fps= 27 q=23.0 size=   34304kB time=00:01:25.07 bitrate=3303.0kbits/s speed=1.07x    
+12/04/2019 17.24.53 frame= 2131 fps= 27 q=23.0 size=   34560kB time=00:01:25.39 bitrate=3315.2kbits/s speed=1.07x    
+12/04/2019 17.24.53 frame= 2139 fps= 27 q=23.0 size=   34816kB time=00:01:25.71 bitrate=3327.3kbits/s speed=1.06x    
+12/04/2019 17.24.54 frame= 2147 fps= 26 q=23.0 size=   35072kB time=00:01:26.03 bitrate=3339.3kbits/s speed=1.06x    
+12/04/2019 17.24.54 frame= 2157 fps= 26 q=23.0 size=   35328kB time=00:01:26.38 bitrate=3350.4kbits/s speed=1.06x    
+12/04/2019 17.24.55 frame= 2165 fps= 26 q=23.0 size=   35584kB time=00:01:26.74 bitrate=3360.5kbits/s speed=1.06x    
+12/04/2019 17.24.55 frame= 2174 fps= 26 q=23.0 size=   35840kB time=00:01:27.10 bitrate=3370.6kbits/s speed=1.05x    
+12/04/2019 17.24.56 frame= 2183 fps= 26 q=23.0 size=   36096kB time=00:01:27.46 bitrate=3380.6kbits/s speed=1.05x    
+12/04/2019 17.24.57 frame= 2192 fps= 26 q=23.0 size=   36352kB time=00:01:27.83 bitrate=3390.5kbits/s speed=1.05x    
+12/04/2019 17.24.57 frame= 2201 fps= 26 q=23.0 size=   36608kB time=00:01:28.19 bitrate=3400.4kbits/s speed=1.05x    
+12/04/2019 17.24.58 frame= 2210 fps= 26 q=23.0 size=   36608kB time=00:01:28.55 bitrate=3386.5kbits/s speed=1.04x    
+12/04/2019 17.24.58 frame= 2219 fps= 26 q=23.0 size=   36864kB time=00:01:28.91 bitrate=3396.2kbits/s speed=1.04x    
+12/04/2019 17.24.59 frame= 2229 fps= 26 q=23.0 size=   37120kB time=00:01:29.30 bitrate=3405.1kbits/s speed=1.04x    
+12/04/2019 17.24.59 frame= 2239 fps= 26 q=23.0 size=   37376kB time=00:01:29.70 bitrate=3413.1kbits/s speed=1.04x    
+12/04/2019 17.25.00 frame= 2249 fps= 26 q=23.0 size=   37632kB time=00:01:30.11 bitrate=3421.0kbits/s speed=1.04x    
+12/04/2019 17.25.00 frame= 2259 fps= 26 q=23.0 size=   37888kB time=00:01:30.51 bitrate=3428.9kbits/s speed=1.04x    
+12/04/2019 17.25.01 frame= 2269 fps= 26 q=23.0 size=   37888kB time=00:01:30.90 bitrate=3414.4kbits/s speed=1.03x    
+12/04/2019 17.25.01 frame= 2279 fps= 26 q=23.0 size=   38400kB time=00:01:31.30 bitrate=3445.2kbits/s speed=1.03x    
+12/04/2019 17.25.02 frame= 2289 fps= 26 q=23.0 size=   38400kB time=00:01:31.71 bitrate=3429.9kbits/s speed=1.03x    
+12/04/2019 17.25.02 frame= 2299 fps= 26 q=23.0 size=   38656kB time=00:01:32.11 bitrate=3437.6kbits/s speed=1.03x    
+12/04/2019 17.25.03 frame= 2310 fps= 26 q=23.0 size=   38912kB time=00:01:32.54 bitrate=3444.4kbits/s speed=1.03x    
+12/04/2019 17.25.03 frame= 2321 fps= 26 q=23.0 size=   39168kB time=00:01:32.99 bitrate=3450.4kbits/s speed=1.03x    
+12/04/2019 17.25.04 frame= 2333 fps= 26 q=23.0 size=   39424kB time=00:01:33.42 bitrate=3457.1kbits/s speed=1.03x    
+12/04/2019 17.25.04 frame= 2343 fps= 26 q=23.0 size=   39936kB time=00:01:33.86 bitrate=3485.3kbits/s speed=1.02x    
+12/04/2019 17.25.05 frame= 2354 fps= 26 q=23.0 size=   40192kB time=00:01:34.31 bitrate=3490.9kbits/s speed=1.02x    
+12/04/2019 17.25.06 frame= 2366 fps= 26 q=23.0 size=   40448kB time=00:01:34.78 bitrate=3495.8kbits/s speed=1.02x    
+12/04/2019 17.25.06 frame= 2379 fps= 26 q=23.0 size=   40704kB time=00:01:35.31 bitrate=3498.2kbits/s speed=1.02x    
+12/04/2019 17.25.07 frame= 2387 fps= 25 q=23.0 size=   40960kB time=00:01:35.63 bitrate=3508.4kbits/s speed=1.02x    
+12/04/2019 17.25.07 frame= 2395 fps= 25 q=23.0 size=   41216kB time=00:01:35.95 bitrate=3518.6kbits/s speed=1.02x    
+12/04/2019 17.25.08 frame= 2403 fps= 25 q=23.0 size=   41216kB time=00:01:36.27 bitrate=3506.9kbits/s speed=1.02x    
+12/04/2019 17.25.08 frame= 2411 fps= 25 q=23.0 size=   41472kB time=00:01:36.59 bitrate=3517.0kbits/s speed=1.01x    
+12/04/2019 17.25.09 frame= 2419 fps= 25 q=23.0 size=   41728kB time=00:01:36.91 bitrate=3527.0kbits/s speed=1.01x    
+12/04/2019 17.25.09 frame= 2429 fps= 25 q=23.0 size=   41984kB time=00:01:37.26 bitrate=3536.2kbits/s speed=1.01x    
+12/04/2019 17.25.10 frame= 2437 fps= 25 q=23.0 size=   41984kB time=00:01:37.62 bitrate=3523.1kbits/s speed=1.01x    
+12/04/2019 17.25.10 frame= 2446 fps= 25 q=23.0 size=   42240kB time=00:01:37.98 bitrate=3531.4kbits/s speed=   1x    
+12/04/2019 17.25.11 frame= 2455 fps= 25 q=23.0 size=   42496kB time=00:01:38.34 bitrate=3539.7kbits/s speed=   1x    
+12/04/2019 17.25.11 frame= 2464 fps= 25 q=23.0 size=   42752kB time=00:01:38.71 bitrate=3548.0kbits/s speed=   1x    
+12/04/2019 17.25.12 frame= 2473 fps= 25 q=23.0 size=   43008kB time=00:01:39.07 bitrate=3556.1kbits/s speed=0.999x    
+12/04/2019 17.25.12 frame= 2482 fps= 25 q=23.0 size=   43264kB time=00:01:39.43 bitrate=3564.3kbits/s speed=0.998x    
+12/04/2019 17.25.13 frame= 2491 fps= 25 q=23.0 size=   43264kB time=00:01:39.79 bitrate=3551.3kbits/s speed=0.996x    
+12/04/2019 17.25.14 frame= 2501 fps= 25 q=23.0 size=   43520kB time=00:01:40.18 bitrate=3558.6kbits/s speed=0.995x    
+12/04/2019 17.25.14 frame= 2511 fps= 25 q=23.0 size=   43776kB time=00:01:40.58 bitrate=3565.1kbits/s speed=0.993x    
+12/04/2019 17.25.15 frame= 2521 fps= 25 q=23.0 size=   43776kB time=00:01:40.99 bitrate=3550.8kbits/s speed=0.992x    
+12/04/2019 17.25.15 frame= 2531 fps= 25 q=23.0 size=   44032kB time=00:01:41.39 bitrate=3557.3kbits/s speed=0.991x    
+12/04/2019 17.25.16 frame= 2541 fps= 25 q=23.0 size=   44288kB time=00:01:41.78 bitrate=3564.5kbits/s speed=0.989x    
+12/04/2019 17.25.16 frame= 2551 fps= 25 q=23.0 size=   44288kB time=00:01:42.18 bitrate=3550.4kbits/s speed=0.988x    
+12/04/2019 17.25.17 frame= 2561 fps= 25 q=23.0 size=   44544kB time=00:01:42.59 bitrate=3556.8kbits/s speed=0.987x    
+12/04/2019 17.25.17 frame= 2571 fps= 25 q=23.0 size=   44544kB time=00:01:42.99 bitrate=3542.8kbits/s speed=0.986x    
+12/04/2019 17.25.18 frame= 2582 fps= 25 q=23.0 size=   45056kB time=00:01:43.42 bitrate=3568.7kbits/s speed=0.985x    
+12/04/2019 17.25.18 frame= 2593 fps= 25 q=23.0 size=   45568kB time=00:01:43.87 bitrate=3593.7kbits/s speed=0.984x    
+12/04/2019 17.25.19 frame= 2605 fps= 25 q=23.0 size=   46080kB time=00:01:44.30 bitrate=3619.2kbits/s speed=0.983x    
+12/04/2019 17.25.19 frame= 2615 fps= 25 q=23.0 size=   46592kB time=00:01:44.74 bitrate=3643.8kbits/s speed=0.982x    
+12/04/2019 17.25.20 frame= 2626 fps= 25 q=23.0 size=   47104kB time=00:01:45.19 bitrate=3668.1kbits/s speed=0.982x    
+12/04/2019 17.25.20 frame= 2637 fps= 24 q=23.0 size=   47616kB time=00:01:45.62 bitrate=3693.0kbits/s speed=0.981x    
+12/04/2019 17.25.21 frame= 2651 fps= 24 q=23.0 size=   48384kB time=00:01:46.19 bitrate=3732.2kbits/s speed=0.981x    
+12/04/2019 17.25.22 frame= 2659 fps= 24 q=23.0 size=   48896kB time=00:01:46.51 bitrate=3760.4kbits/s speed=0.979x    
+12/04/2019 17.25.22 frame= 2667 fps= 24 q=23.0 size=   49408kB time=00:01:46.83 bitrate=3788.4kbits/s speed=0.978x    
+12/04/2019 17.25.23 frame= 2677 fps= 24 q=23.0 size=   49664kB time=00:01:47.18 bitrate=3795.9kbits/s speed=0.976x    
+12/04/2019 17.25.23 frame= 2685 fps= 24 q=23.0 size=   50176kB time=00:01:47.50 bitrate=3823.6kbits/s speed=0.974x    
+12/04/2019 17.25.24 frame= 2693 fps= 24 q=23.0 size=   50688kB time=00:01:47.86 bitrate=3849.7kbits/s speed=0.972x    
+12/04/2019 17.25.24 frame= 2702 fps= 24 q=23.0 size=   50944kB time=00:01:48.22 bitrate=3856.1kbits/s speed=0.971x    
+12/04/2019 17.25.25 frame= 2711 fps= 24 q=23.0 size=   51456kB time=00:01:48.58 bitrate=3881.9kbits/s speed=0.97x    
+12/04/2019 17.25.25 frame= 2720 fps= 24 q=23.0 size=   51968kB time=00:01:48.95 bitrate=3907.5kbits/s speed=0.969x    
+12/04/2019 17.25.26 frame= 2729 fps= 24 q=23.0 size=   52480kB time=00:01:49.31 bitrate=3932.9kbits/s speed=0.967x    
+12/04/2019 17.25.26 frame= 2738 fps= 24 q=23.0 size=   52992kB time=00:01:49.67 bitrate=3958.1kbits/s speed=0.966x    
+12/04/2019 17.25.27 frame= 2749 fps= 24 q=23.0 size=   53504kB time=00:01:50.06 bitrate=3982.4kbits/s speed=0.965x    
+12/04/2019 17.25.27 frame= 2758 fps= 24 q=23.0 size=   54016kB time=00:01:50.46 bitrate=4005.8kbits/s speed=0.964x    
+12/04/2019 17.25.28 frame= 2768 fps= 24 q=23.0 size=   54272kB time=00:01:50.87 bitrate=4010.0kbits/s speed=0.963x    
+12/04/2019 17.25.28 frame= 2778 fps= 24 q=23.0 size=   54784kB time=00:01:51.27 bitrate=4033.1kbits/s speed=0.962x    
+12/04/2019 17.25.29 frame= 2789 fps= 24 q=23.0 size=   55296kB time=00:01:51.66 bitrate=4056.8kbits/s speed=0.961x    
+12/04/2019 17.25.30 frame= 2798 fps= 24 q=23.0 size=   55808kB time=00:01:52.06 bitrate=4079.6kbits/s speed=0.96x    
+12/04/2019 17.25.30 frame= 2808 fps= 24 q=23.0 size=   56320kB time=00:01:52.47 bitrate=4102.1kbits/s speed=0.959x    
+12/04/2019 17.25.31 frame= 2819 fps= 24 q=23.0 size=   56832kB time=00:01:52.91 bitrate=4123.0kbits/s speed=0.958x    
+12/04/2019 17.25.31 frame= 2829 fps= 24 q=23.0 size=   57344kB time=00:01:53.30 bitrate=4146.1kbits/s speed=0.957x    
+12/04/2019 17.25.32 frame= 2840 fps= 24 q=23.0 size=   57600kB time=00:01:53.75 bitrate=4148.2kbits/s speed=0.957x    
+12/04/2019 17.25.32 frame= 2851 fps= 24 q=23.0 size=   58368kB time=00:01:54.19 bitrate=4187.0kbits/s speed=0.956x    
+12/04/2019 17.25.33 frame= 2862 fps= 24 q=23.0 size=   58880kB time=00:01:54.62 bitrate=4208.0kbits/s speed=0.956x    
+12/04/2019 17.25.33 frame= 2873 fps= 24 q=23.0 size=   59136kB time=00:01:55.07 bitrate=4209.8kbits/s speed=0.956x    
+12/04/2019 17.25.34 frame= 2885 fps= 24 q=23.0 size=   59648kB time=00:01:55.54 bitrate=4229.0kbits/s speed=0.955x    
+12/04/2019 17.25.34 frame= 2896 fps= 24 q=23.0 size=   59648kB time=00:01:55.99 bitrate=4212.7kbits/s speed=0.955x    
+12/04/2019 17.25.35 frame= 2909 fps= 24 q=23.0 size=   59904kB time=00:01:56.46 bitrate=4213.7kbits/s speed=0.954x    
+12/04/2019 17.25.35 frame= 2920 fps= 24 q=23.0 size=   60160kB time=00:01:56.93 bitrate=4214.8kbits/s speed=0.954x    
+12/04/2019 17.25.36 frame= 2932 fps= 24 q=23.0 size=   60416kB time=00:01:57.42 bitrate=4215.0kbits/s speed=0.954x    
