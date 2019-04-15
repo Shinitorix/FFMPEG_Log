@@ -1,0 +1,45 @@
+-i "E:\temp\output_text.mp4" 
+-i "E:\temp\01.jpg" 
+-i "E:\temp\02.jpg" 
+-i "E:\temp\03.jpg" 
+-i "E:\temp\04.jpg" 
+-i "E:\temp\05.jpg" 
+-i "E:\temp\06.jpg" 
+-i "E:\temp\07.jpg" 
+-i "E:\temp\08.jpg" 
+-i "E:\temp\09.jpg" 
+-i "E:\temp\10.jpg" 
+-i "E:\temp\11.jpg" 
+-i "E:\temp\12.jpg" 
+-i "E:\temp\13.jpg" 
+-i "E:\temp\14.jpg" 
+-filter_complex 
+"[1:v]format=yuva422p,scale=2910x4400,setsar=1/1,pad=1.5*iw:1.5*ih:(ow-iw)/2:(oh-ih)/2:color=black@0,zoompan=z='min(zoom+0.0012,1.5)':s=291x440:d=193:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)',fade=in:st=0:d=1:alpha=1,fade=out:st=6:d=1:alpha=1,setpts=PTS+20/TB[im1];
+[2:v]format=yuva422p,scale=2910x4400,setsar=1/1,pad=1.5*iw:1.5*ih:(ow-iw)/2:(oh-ih)/2:color=black@0,zoompan=z='min(zoom+0.0012,1.5)':s=291x440:d=193:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)',fade=in:st=0:d=1:alpha=1,fade=out:st=6:d=1:alpha=1,setpts=PTS+27/TB[im2];
+[3:v]format=yuva422p,scale=7900x4380,setsar=1/1,pad=1.5*iw:1.5*ih:(ow-iw)/2:(oh-ih)/2:color=black@0,zoompan=z='min(zoom+0.0012,1.5)':s=790x438:d=193:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)',fade=in:st=0:d=1:alpha=1,fade=out:st=6:d=1:alpha=1,setpts=PTS+35/TB[im3];
+[4:v]format=yuva422p,scale=2460x4450,setsar=1/1,pad=1.5*iw:1.5*ih:(ow-iw)/2:(oh-ih)/2:color=black@0,zoompan=z='min(zoom+0.0012,1.5)':s=246x445:d=193:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)',fade=in:st=0:d=1:alpha=1,fade=out:st=6:d=1:alpha=1,setpts=PTS+43/TB[im4];
+[5:v]format=yuva422p,scale=7900x4380,setsar=1/1,pad=1.5*iw:1.5*ih:(ow-iw)/2:(oh-ih)/2:color=black@0,zoompan=z='min(zoom+0.0012,1.5)':s=790x438:d=193:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)',fade=in:st=0:d=1:alpha=1,fade=out:st=6:d=1:alpha=1,setpts=PTS+50/TB[im5];
+[6:v]format=yuva422p,scale=7900x4380,setsar=1/1,pad=1.5*iw:1.5*ih:(ow-iw)/2:(oh-ih)/2:color=black@0,zoompan=z='min(zoom+0.0012,1.5)':s=790x438:d=193:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)',fade=in:st=0:d=1:alpha=1,fade=out:st=6:d=1:alpha=1,setpts=PTS+58/TB[im6];
+[7:v]format=yuva422p,scale=7900x4380,setsar=1/1,pad=1.5*iw:1.5*ih:(ow-iw)/2:(oh-ih)/2:color=black@0,zoompan=z='min(zoom+0.0012,1.5)':s=790x438:d=193:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)',fade=in:st=0:d=1:alpha=1,fade=out:st=6:d=1:alpha=1,setpts=PTS+66/TB[im7];
+[8:v]format=yuva422p,scale=7900x4380,setsar=1/1,pad=1.5*iw:1.5*ih:(ow-iw)/2:(oh-ih)/2:color=black@0,zoompan=z='min(zoom+0.0012,1.5)':s=790x438:d=193:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)',fade=in:st=0:d=1:alpha=1,fade=out:st=6:d=1:alpha=1,setpts=PTS+74/TB[im8];
+[9:v]format=yuva422p,scale=2460x4450,setsar=1/1,pad=1.5*iw:1.5*ih:(ow-iw)/2:(oh-ih)/2:color=black@0,zoompan=z='min(zoom+0.0012,1.5)':s=246x445:d=193:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)',fade=in:st=0:d=1:alpha=1,fade=out:st=6:d=1:alpha=1,setpts=PTS+81/TB[im9];
+[10:v]format=yuva422p,scale=7900x4380,setsar=1/1,pad=1.5*iw:1.5*ih:(ow-iw)/2:(oh-ih)/2:color=black@0,zoompan=z='min(zoom+0.0012,1.5)':s=790x438:d=193:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)',fade=in:st=0:d=1:alpha=1,fade=out:st=6:d=1:alpha=1,setpts=PTS+89/TB[im10];
+[11:v]format=yuva422p,scale=7900x4380,setsar=1/1,pad=1.5*iw:1.5*ih:(ow-iw)/2:(oh-ih)/2:color=black@0,zoompan=z='min(zoom+0.0012,1.5)':s=790x438:d=193:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)',fade=in:st=0:d=1:alpha=1,fade=out:st=6:d=1:alpha=1,setpts=PTS+97/TB[im11];
+[12:v]format=yuva422p,scale=7900x4380,setsar=1/1,pad=1.5*iw:1.5*ih:(ow-iw)/2:(oh-ih)/2:color=black@0,zoompan=z='min(zoom+0.0012,1.5)':s=790x438:d=193:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)',fade=in:st=0:d=1:alpha=1,fade=out:st=6:d=1:alpha=1,setpts=PTS+104/TB[im12];
+[13:v]format=yuva422p,scale=7900x4380,setsar=1/1,pad=1.5*iw:1.5*ih:(ow-iw)/2:(oh-ih)/2:color=black@0,zoompan=z='min(zoom+0.0012,1.5)':s=790x438:d=193:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)',fade=in:st=0:d=1:alpha=1,fade=out:st=6:d=1:alpha=1,setpts=PTS+112/TB[im13];
+[14:v]format=yuva422p,scale=6080x4380,setsar=1/1,pad=1.5*iw:1.5*ih:(ow-iw)/2:(oh-ih)/2:color=black@0,zoompan=z='min(zoom+0.0012,1.5)':s=608x438:d=193:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)',fade=in:st=0:d=1:alpha=1,fade=out:st=6:d=1:alpha=1,setpts=PTS+120/TB[im14];
+[0][im1]overlay=(main_w-overlay_w)/2:(main_h - overlay_h)/2[o1];
+[o1][im2]overlay=(main_w-overlay_w)/2:(main_h - overlay_h)/2[o2];
+[o2][im3]overlay=(main_w-overlay_w)/2:(main_h - overlay_h)/2[o3];
+[o3][im4]overlay=(main_w-overlay_w)/2:(main_h - overlay_h)/2[o4];
+[o4][im5]overlay=(main_w-overlay_w)/2:(main_h - overlay_h)/2[o5];
+[o5][im6]overlay=(main_w-overlay_w)/2:(main_h - overlay_h)/2[o6];
+[o6][im7]overlay=(main_w-overlay_w)/2:(main_h - overlay_h)/2[o7];
+[o7][im8]overlay=(main_w-overlay_w)/2:(main_h - overlay_h)/2[o8];
+[o8][im9]overlay=(main_w-overlay_w)/2:(main_h - overlay_h)/2[o9];
+[o9][im10]overlay=(main_w-overlay_w)/2:(main_h - overlay_h)/2[o10];
+[o10][im11]overlay=(main_w-overlay_w)/2:(main_h - overlay_h)/2[o11];
+[o11][im12]overlay=(main_w-overlay_w)/2:(main_h - overlay_h)/2[o12];
+[o12][im13]overlay=(main_w-overlay_w)/2:(main_h - overlay_h)/2[o13];
+[o13][im14]overlay=(main_w-overlay_w)/2:(main_h - overlay_h)/2" 
+-crf 18 -c:a copy "E:\temp\output.mp4"
